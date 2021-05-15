@@ -3,8 +3,4 @@
   background-color: $basic-dark-blue;
   background-repeat: no-repeat;
   background-size: cover, auto, auto;
-
-  @media (max-width: $desktop-width) {
-    background-position: top;
-  }
 }
