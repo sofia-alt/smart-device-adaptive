@@ -1,0 +1,65 @@
+.main-nav {
+  display: flex;
+  padding-top: 33px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &__item {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__link {
+    color: $basic-white;
+    font-size: 16px;
+    line-height: 18px;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 40px;
+    position: relative;
+
+    &::before {
+      width: 19px;
+      height: 19px;
+      position: absolute;
+      content: "";
+      left: 0;
+      top: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    &_email {
+      margin-right: 88px;
+
+      &::before {
+        background-image: url("/img/email.svg");
+      }
+    }
+
+    &_phone {
+      &::before {
+        background-image: url("/img/phone.svg");
+      }
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+  }
+}

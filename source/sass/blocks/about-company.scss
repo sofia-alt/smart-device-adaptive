@@ -1,0 +1,33 @@
+.about-company {
+  padding-left: 210px;
+  background-image: url("/img/2005.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  padding-top: 110px;
+  padding-bottom: 96px;
+
+  &__title {
+    font-size: 36px;
+    line-height: 51px;
+    color: $basic-dark;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 18px;
+  }
+
+  &__text {
+    color: $basic-dark;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  &__link {
+    border-color: $basic-blue;
+    color: $basic-blue;
+    padding: 14px 50px;
+    font-weight: bold;
+  }
+}

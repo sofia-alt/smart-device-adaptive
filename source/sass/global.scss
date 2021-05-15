@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 62%;
+
+  &_header {
+    max-width: 74.5%;
+  }
+
+  @media (max-width: $desktop-width) {
+    padding: 0 25px;
+  }
+
+  @media (max-width: $tablet-width) {
+    padding: 0 15px;
+  }
+}

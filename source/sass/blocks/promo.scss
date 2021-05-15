@@ -1,0 +1,70 @@
+.promo {
+  color: $basic-white;
+  background-repeat: no-repeat;
+  background-position: right 27px;
+  padding-top: 231px;
+  padding-bottom: 278px;
+  position: relative;
+
+  @media (max-width: $desktop-width) {
+    padding-top: 134px;
+    padding-bottom: 80px;
+    justify-content: center;
+  }
+
+  &__title {
+    color: $basic-white;
+    font-size: 80px;
+    line-height: 94px;
+    margin-top: 0;
+    margin-bottom: 31px;
+    letter-spacing: 0.07em;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+  }
+
+
+  &__text {
+    font-size: 22px;
+    line-height: 34px;
+    color: $basic-white;
+    margin-top: 0;
+    margin-bottom: 37px;
+    max-width: 781px;
+    padding-left: 98px;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 66px;
+      height: 2px;
+      top: 17px;
+      left: 4px;
+      background-color: $basic-white;
+    }
+
+    @media (max-width: $desktop-width) {
+      font-size: 18px;
+      padding: 0 10px;
+    }
+  }
+
+  &__link {
+    font-size: 16px;
+    line-height: 19px;
+    background-color: $basic-blue;
+    font-weight: bold;
+    border-color: $basic-blue;
+  }
+
+  &__scroll {
+    bottom: 88px;
+    left: -35px;
+    transform: rotate(-90deg);
+    position: absolute;
+    display: inline-block;
+    font-size: 14px;
+    opacity: 0.5;
+    color: $basic-white;
+  }
+}

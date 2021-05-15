@@ -1,0 +1,10 @@
+.page-header {
+  background: url("/img/promo-canvas.png") center, url("/img/promo.png") 90% center, url("/img/polygons.svg") 90% center;
+  background-color: $basic-dark-blue;
+  background-repeat: no-repeat;
+  background-size: cover, auto, auto;
+
+  @media (max-width: $desktop-width) {
+    background-position: top;
+  }
+}
