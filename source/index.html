@@ -92,45 +92,52 @@
       </p>
       <a class="button about-company__link" href="#">Подробнее</a>
     </section>
-    <section class="services container">
-      <h2 class="services__title">Service Device предлагает следующие товары и услуги</h2>
-      <ul class="services__list">
-        <li class="services__item">
-          <a class="product product__make" href="#">
-            <h3 class="product__title">Производство печатных плат</h3>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="product product__fitting" href="#">
-            <h3 class="product__title">Монтаж печатных плат</h3>
-          </a>
-        </li>
-        <li class="services__item">
-          <a class="product product__set" href="#">
-            <h3 class="product__title">Комплектующие для светотехники</h3>
-          </a>
-        </li>
-      </ul>
+    <section class="services">
+      <div class="container">
+        <h2 class="services__title">Service Device предлагает следующие товары и услуги</h2>
+        <ul class="services__list">
+          <li class="services__item">
+            <a class="product product_make" href="#">
+              <h3 class="product__title">Производство печатных плат</h3>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="product product_fitting" href="#">
+              <h3 class="product__title">Монтаж печатных плат</h3>
+            </a>
+          </li>
+          <li class="services__item">
+            <a class="product product_set" href="#">
+              <h3 class="product__title">Комплектующие для светотехники</h3>
+            </a>
+          </li>
+        </ul>
+      </div>
     </section>
-    <section class="questions container">
-      <div class="questions__wrapper">
-        <h2 class="questions__title">Остались вопросы? Задайте их нам!</h2>
-        <p class="questions__text">Мы проконсультируем Вас бесплатно</p>
-        <form class="questions__form form">
-          <label class="visually-hidden" for="name">Введите имя</label>
-          <input class="form__input" type="text" name="name" id="name" placeholder="Имя" required="">
-          <label class="visually-hidden" for="phone">Введите телефон</label>
-          <input class="form__input" type="tel" name="phone" id="phone" placeholder="Телефон" required="" maxlength="16">
-          <label class="visually-hidden" for="question">Ваш вопрос</label>
-          <textarea class="form__textarea" name="question-field" id="question" placeholder="Ваш вопрос" required=""></textarea>
-          <button class="button form__button" type="submit" name="quest-send">Задать вопрос</button>
-          <label class="form__label" for="check-personal-data">
-            <input class="form__checkbox" type="checkbox" name="personal-data" id="check-personal-data" checked="" required="">
-            <span class="form__text-checkbox">
+    <section class="questions">
+      <div class="container">
+        <div class="questions__wrapper">
+          <h2 class="questions__title">Остались вопросы? Задайте их нам!</h2>
+          <p class="questions__text">Мы проконсультируем Вас бесплатно</p>
+          <form class="questions__form form">
+            <label class="visually-hidden" for="name">Введите имя</label>
+            <input class="form__input" type="text" name="name" id="name" placeholder="Имя" required="">
+            <label class="visually-hidden" for="phone">Введите телефон</label>
+            <input class="form__input" type="tel" name="phone" id="phone" placeholder="Телефон" required=""
+                   maxlength="16">
+            <label class="visually-hidden" for="question">Ваш вопрос</label>
+            <textarea class="form__input form__input_textarea" name="question-field" id="question"
+                      placeholder="Ваш вопрос" required=""></textarea>
+            <button class="button form__button" type="submit" name="quest-send">Задать вопрос</button>
+            <label class="form__label" for="check-personal-data">
+              <input class="form__checkbox" type="checkbox" name="personal-data" id="check-personal-data" checked=""
+                     required="">
+              <span class="form__text-checkbox">
               Я согласен на обработку персональных данных
             </span>
-          </label>
-        </form>
+            </label>
+          </form>
+        </div>
       </div>
     </section>
   </main>

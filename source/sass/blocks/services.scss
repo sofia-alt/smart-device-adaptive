@@ -1,0 +1,24 @@
+.services {
+  background-color: $basic-dark-blue;
+  padding-top: 93px;
+  padding-bottom: 127px;
+
+  &__title {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 51px;
+    margin-top: 0;
+    margin-bottom: 47px;
+    color: $basic-white;
+  }
+
+  &__list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+}

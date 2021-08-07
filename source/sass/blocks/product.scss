@@ -1,0 +1,55 @@
+.product {
+  position: relative;
+  display: block;
+  min-height: 670px;
+
+  &__title {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    color: $basic-white;
+    width: 155px;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    font-weight: normal;
+    padding-top: 53px;
+    padding-left: 44px;
+    opacity: 1;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 62px;
+    height: 62px;
+    background-color: $basic-blue;
+    background-image: url("/img/arrow.svg");
+    background-size: 6px 9px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+  &_make::before {
+    background-image: url("/img/make.jpg");
+  }
+
+  &_fitting::before {
+    background-image: url("/img/fitting.jpg");
+  }
+
+  &_set::before {
+    background-image: url("/img/set.jpg");
+  }
+}
