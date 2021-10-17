@@ -1,7 +1,10 @@
 .footer {
+  padding-top: 65px;
+  
   &__wrapper {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 55px;
   }
 }
