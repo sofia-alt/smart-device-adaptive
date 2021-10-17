@@ -12,6 +12,10 @@
     max-width: 74.5%;
   }
 
+  &_footer {
+    max-width: 72.4%;
+  }
+
   @media (max-width: $desktop-width) {
     padding: 0 25px;
   }

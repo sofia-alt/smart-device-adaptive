@@ -1,0 +1,16 @@
+.social-block {
+  &__link-logo {
+    display: inline-block;
+    margin-bottom: 55px;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    width: fit-content;
+  }
+}

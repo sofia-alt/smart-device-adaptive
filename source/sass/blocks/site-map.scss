@@ -1,8 +1,4 @@
-.contacts {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-
+.site-map {
   &__title {
     font-family: "Roboto Condensed", "Arial", sans-serif;
     font-weight: normal;
@@ -18,18 +14,15 @@
     padding: 0;
     list-style: none;
     font-family: "PT Mono", "Arial", sans-serif;
-    font-size: 15px;
-    line-height: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 65px;
   }
 
   &__link {
     color: $basic-dark-blue;
     opacity: 0.5;
-  }
-
-  &__text {
-    color: $basic-dark-blue;
-    opacity: 0.5;
-    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
   }
 }
